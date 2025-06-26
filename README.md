@@ -1,41 +1,42 @@
-Text File Analyzer
+##Text File Analyzer
 This Python script provides a simple tool to analyze text files. It calculates various statistics about the text, including word count, character count, line count, and the frequency of words.
 
-Features
-Line Count: Counts the total number of lines in the file.
+###Features
+####Line Count: Counts the total number of lines in the file.
 
-Character Count: Counts the total number of characters, including spaces, newlines, and punctuation.
+####Character Count: Counts the total number of characters, including spaces, newlines, and punctuation.
 
-Word Count: Counts the total number of words. Words are converted to lowercase and punctuation is removed for accurate counting.
+####Word Count: Counts the total number of words. Words are converted to lowercase and punctuation is removed for accurate counting.
 
-Word Frequency: Identifies and displays the top 10 most frequent words in the text.
+####Word Frequency: Identifies and displays the top 10 most frequent words in the text.
 
-How to Use
-Save the Script:
+###How to Use
+####Save the Script:
 Save the provided Python code as a .py file (e.g., text_analyzer.py).
 
-Prepare Your Text File:
+####Prepare Your Text File:
 Ensure you have a text file (.txt) that you want to analyze. The script includes a demonstration mode that creates a sample.txt file for testing.
 
-Run the Script:
+####Run the Script:
 Open your terminal or command prompt, navigate to the directory where you saved text_analyzer.py, and run the script:
-
+```
 python text_analyzer.py
 
-Analyze Your Own File:
+```
+####Analyze Your Own File:
 To analyze a different text file, open text_analyzer.py in a text editor and locate the following line within the if __name__ == "__main__": block:
 
-file_to_analyze = dummy_file_name # You can change this to any other text file
+``` file_to_analyze = dummy_file_name ``` # You can change this to any other text file
 
 Change dummy_file_name to the path of your desired file. For example:
-
+```
 file_to_analyze = "path/to/your/my_document.txt"
-
+```
 Then, save the changes and run the script again.
 
-Example Output
+###Example Output
 When run, the script will output statistics similar to this:
-
+```
 Created a dummy file: 'sample.txt' for testing.
 
 File Analysis Results
@@ -55,6 +56,6 @@ Top 10 most frequent words
 'has': 1
 'multiple': 1
 'lines': 1
-
+```
 Requirements
 Python 3.x
