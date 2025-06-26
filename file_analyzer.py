@@ -40,12 +40,13 @@ if __name__=="__main__":
     except Exception as e:
         print(f"Error: {e}")
         exit()
-
-    res = analyze(dummy_file_name)
+        
+    file_to_analyze = dummy_file_name
+    res = analyze(file_to_analyze)
 
     if res:
         print("\n File Analysis Results")
-        print(f"File: {dummy_file_name}")
+        print(f"File: {file_to_analyze}")
         print(f"Total Lines: {res['line_count']}")
         print(f"Total Characters: {res['char_count']}")
         print(f"Total Words: {res['word_count']}")
