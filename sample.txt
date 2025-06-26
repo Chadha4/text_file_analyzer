@@ -1,0 +1,3 @@
+This is a sample file for testing purposes.
+    This file will be analyzed.
+    We'll see how many words, chars and lines this file has.
